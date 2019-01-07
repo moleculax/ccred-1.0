@@ -1,4 +1,6 @@
 # ccred-1.0
+<center>
+<img src="https://github.com/moleculax/ccred-1.0/blob/master/ccred.png?raw=true"></center>
 <h1>Configura interfaces en debian/ubuntu</h1>
 <br>
 <b>Requerimeintos:</b>
