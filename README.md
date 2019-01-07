@@ -4,8 +4,8 @@
 <h1>Configura interfaces en debian/ubuntu</h1>
 <br>
 <b>Requerimeintos:</b>
-
-#apt inetall dialog
+Dialog<br>
+#apt-get install dialog
 <br>
 #dpkg -i ccred_1.0-2_all.deb
 
