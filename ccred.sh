@@ -22,9 +22,7 @@ if [ "$?" = "255" ]
 	echo "# This file describes the network interfaces available on your system" >> /etc/network/interfaces
 	echo "# and how to activate them. For more information, see interfaces(5). " >> /etc/network/interfaces
 	echo "source /etc/network/interfaces.d/*  " >> /etc/network/interfaces
-
-	# The loopback network interface
-
+	echo "# The loopback network interface" >> /etc/network/interfaces
 	echo "auto lo" >> /etc/network/interfaces
 	echo "auto $iface" >> /etc/network/interfaces
 	echo "iface $iface inet static " >> /etc/network/interfaces
